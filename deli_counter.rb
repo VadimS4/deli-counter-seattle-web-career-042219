@@ -16,8 +16,8 @@ def line(array)
       new_line.push("The line is currently: #{counter}. {name}")
       counter += 1
     end
+    puts ""
   end
-  return new_line
 end
 
 def now_serving
