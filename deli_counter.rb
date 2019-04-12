@@ -13,7 +13,7 @@ def line(array)
     puts "The line is currently empty."
   else 
       array.each_with_index do |value, index|
-        puts("#{index.to_i+1}. #{value}"
+        puts "#{index.to_i+1}. #{value}"
       end
     end
 end
