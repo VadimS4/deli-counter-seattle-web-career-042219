@@ -12,10 +12,10 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else 
-      array.each_with_index do |value, index|
-        puts "#{index.to_i+1}. #{value}"
-      end
+    array.each_with_index do |value, index|
+      return "#{index.to_i+1}. #{value}"
     end
+  end
 end
 
 def now_serving
