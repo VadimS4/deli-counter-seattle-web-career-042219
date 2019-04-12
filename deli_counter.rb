@@ -5,7 +5,6 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
   
-
 def line(array)
   if array.length >= 1
     counter = 1
