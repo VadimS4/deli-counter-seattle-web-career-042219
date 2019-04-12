@@ -13,7 +13,7 @@ def line(array)
     counter = 1
     new_line = []
     array.each do |name|
-      new_line.push("The line is currently: #{counter}. {name}")
+      new_line.push("#{counter}. #{name}")
       counter += 1
     end
     puts "The line is currently"
