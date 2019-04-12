@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each_with_index do |value, index|
-      new_line.push("#{"
+      new_line.push("#{index.to_i"
     end
   return new_line
 end
