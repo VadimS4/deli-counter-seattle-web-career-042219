@@ -3,8 +3,9 @@ def line(array = katz_deli)
     puts "The line is currently empty."
   elsif array.length > 1
     counter = 0
+    new_line = []
     array.each do |place|
-      
+      new_line.push("")
       
     
 end
