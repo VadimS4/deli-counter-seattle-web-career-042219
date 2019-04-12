@@ -18,3 +18,7 @@ def line(array)
     end
 end
 
+def now_serving
+  
+end
+
