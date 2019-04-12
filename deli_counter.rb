@@ -9,11 +9,13 @@ end
   
 
 def line(array)
+  new_line = []
+  counter = 0
   if array.length == 0
     puts "The line is currently empty."
   else 
-    array.each_with_index do |value, index|
-      return "#{index.to_i+1}. #{value}"
+    array.each do
+      
     end
   end
 end
