@@ -4,8 +4,8 @@ def line(array)
   else 
     counter = 0
     new_line = []
-    array.each do |place|
-      new_line.push("The line is currently: #{counter} #{place}")
+    array.each do |line|
+      new_line.push("The line is currently: #{counter} #{line}")
       counter += 1
     end
   return new_line
