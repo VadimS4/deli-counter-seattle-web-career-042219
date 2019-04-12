@@ -9,15 +9,11 @@ end
   
 
 def line(array)
-  new_line = []
-  counter = 1
-  if array.length == 0
-    puts "The line is currently empty."
-  else 
-    array.each do
+  if array.length >= 1
+    counter = 1
+    new_line = []
+    array.each do |
       
-    end
-  end
 end
 
 def now_serving
