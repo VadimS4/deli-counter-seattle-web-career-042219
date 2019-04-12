@@ -1,5 +1,7 @@
 katz_deli = 0
 
+def take_a_number(katz_deli, string)
+
 def line(array)
   new_line = []
   if array.length == 0
