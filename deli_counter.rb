@@ -12,7 +12,8 @@ def line(array)
   if array.length >= 1
     counter = 1
     new_line = []
-    array.each do |
+    array.each do |name|
+      new_line.push("The line is currently: #{counter}. {name}")
       
 end
 
