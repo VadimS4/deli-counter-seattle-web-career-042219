@@ -1,2 +1,4 @@
-def line()
+def line(array)
+  
+end
 
