@@ -1,5 +1,6 @@
 def line(array = katz_deli)
-  array.each do |
+  array.each do |person|
+    
 end
 
 def take_a_number(katz_deli, string)
