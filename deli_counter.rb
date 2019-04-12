@@ -4,7 +4,7 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else 
-    array.each
+    array.each_
       new_line.push("The line is currently: #{counter} #{line}")
       counter += 1
     end
