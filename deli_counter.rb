@@ -18,7 +18,7 @@ def line(array)
     end
     return new_line.join(" ")
   else
-    puts ""
+    puts "The line is currently empty"
   end
 end
 
