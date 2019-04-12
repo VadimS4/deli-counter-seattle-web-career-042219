@@ -1,6 +1,7 @@
 katz_deli = 0
 
-def take_a_number(katz_deli, name)
+def take_a_number(array, name)
+  array.push(name)
   
 
 def line(array)
