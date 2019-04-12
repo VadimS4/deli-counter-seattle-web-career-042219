@@ -16,7 +16,7 @@ def line(array)
       new_line.push("The line is currently: #{counter}. {name}")
       counter += 1
     end
-    push new_line.join(" ")
+    puts "The line is currently"
   else
     puts "The line is currently empty."
   end
