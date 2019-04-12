@@ -14,7 +14,10 @@ def line(array)
     new_line = []
     array.each do |name|
       new_line.push("The line is currently: #{counter}. {name}")
-      
+      counter += 1
+    end
+  end
+  return new_line
 end
 
 def now_serving
