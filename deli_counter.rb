@@ -5,6 +5,7 @@ def take_a_number(array, name)
   position = array.index
   puts "Welcome #{name}. You are number #{position + 1} in line"
   return name, position
+end
   
 
 def line(array)
