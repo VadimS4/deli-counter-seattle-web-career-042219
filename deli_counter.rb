@@ -3,7 +3,7 @@ katz_deli = 0
 def take_a_number(line, name)
   line.push(name)
   position = array.index
-  puts "Welcome #{name}. You are number #{array.length} in line."
+  puts "Welcome #{name}. You are number #{line.length} in line."
 end
   
 
