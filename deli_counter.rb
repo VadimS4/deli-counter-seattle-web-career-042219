@@ -16,7 +16,9 @@ def line(array)
       new_line.push("The line is currently: #{counter}. {name}")
       counter += 1
     end
-    puts ""
+    return new_line
+  else
+    
   end
 end
 
