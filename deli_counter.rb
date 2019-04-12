@@ -1,9 +1,9 @@
 katz_deli = 0
 
-def take_a_number(line, name)
-  line.push(name)
+def take_a_number(line, string)
+  line.push(string)
   position = array.index
-  puts "Welcome #{name}. You are number #{line.length} in line."
+  puts "Welcome #{string}. You are number #{line.length} in line."
 end
   
 
